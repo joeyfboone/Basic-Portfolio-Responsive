@@ -237,3 +237,130 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  
+      .auth-image {
+        float: left;
+        width: 100%;}
+
+      #masthead {
+       position: fixed;
+          z-index: 99;
+          width: 100%;
+          margin: 0 0 30px;
+          padding: 0 30px 0 30px;
+          overflow: auto;
+          color: #fff;
+          background: #fff;
+          border-bottom: 2px solid #ccc;
+        }
+
+        .main-section {
+          float: left;
+          width: 100%;
+          max-width: 500px;
+          padding: 30px;
+          margin: 0 0 20px 30px;
+          background: #fff;
+          border: 1px solid #ddd;
+        }
+
+        .sidebar {
+          float: left;
+          width: 100%;
+          max-width: 270px;
+          padding: 30px;
+          margin: 0 0 0 30px;
+          background: #fff;
+          border: 1px solid #ddd;
+        }
+  
+    }
+
+
+@media screen and (max-width: 768px)  {
+  
+  #main-container {
+    padding: 130px;
+  }
+  
+  .sidebar {
+   float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 20px 0 20px 0px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0 30px 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+          
+  @media screen and (max-width: 640px)  {
+    
+    #main-container {
+      padding: 130px;
+    }
+    
+    .sidebar {
+     float: left;
+      width: 100%;
+      max-width: 650px;
+      padding: 30px;
+      margin: 20px 0 20px 0px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+  
+    .main-section {
+      float: left;
+      width: 100%;
+      max-width: 650px;
+      padding: 30px;
+      margin: 0 0 20px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+  #logo {
+    width: 100%;
+    margin
+  }
+    #masthead {
+      position: fixed;
+      z-index: 99;
+      width: 100%;
+      margin: 0 0 30px;
+      overflow: auto;
+      color: #fff;
+      background: #fff;
+      padding: 0 0px 0 0px;
+      border-bottom: 2px solid #ccc;
+    }
+nav {
+  float: none;
+  text-align: center;
+}
+  
+    }
+
